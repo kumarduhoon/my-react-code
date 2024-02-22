@@ -5,7 +5,7 @@ import React from 'react'
 // ReactDOM is a library. which is implementation on the web like react-native is implementation on moblie 
 import ReactDOM from 'react-dom/client'
 // ReactDOM create own Dom. whihc is called virtual dom
-
+import "./index.css"
 import App from "./App"
 
 

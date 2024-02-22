@@ -1,4 +1,5 @@
 import { useState } from "react";
+// devui.io website for ui components
 
 function Hook() {
     const [counter, setCounter] = useState(() => (15));
@@ -24,7 +25,7 @@ function Hook() {
             <h1>My React Hook code</h1>
             <div>counter Value :- {counter}</div>
             <br />
-            <button onClick={addValue} /*we also give the function refernece because i want to execute this function on onClick event, if we give function with execution then function run without click event */>Add Value</button> {" "}
+            <button className="bg-green-400 text-white px-8 py-5  border-2 border-black ml-6" onClick={addValue} /*we also give the function refernece because i want to execute this function on onClick event, if we give function with execution then function run without click event */>Add Value</button> {" "}
             <button onClick={removeValue}>Remove Value</button>
         </>
     )
