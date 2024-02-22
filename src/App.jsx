@@ -1,6 +1,7 @@
 import React from "react"
 // import Hook from "./Hook"
-import Cards from "./components/Cards"
+// import Cards from "./components/Cards"
+import BGColor from "./components/BGColor"
 
 function App() {
   // const user = "this my code with beer"
@@ -10,7 +11,8 @@ function App() {
       // Interpolation: You can also called interpolate JavaScript expressions, variables, or functions into JSX. 
       */}
       {/* <Hook /> */}
-      <Cards />
+      {/* <Cards /> */}
+      <BGColor />
     </>
   )
 }
