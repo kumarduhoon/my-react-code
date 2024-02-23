@@ -1,7 +1,8 @@
 import React from "react"
 // import Hook from "./Hook"
 // import Cards from "./components/Cards"
-import BGColor from "./components/BGColor"
+// import BGColor from "./components/BGColor"
+import PassGen from "./components/passgenrator/PassGen"
 
 function App() {
   // const user = "this my code with beer"
@@ -12,7 +13,8 @@ function App() {
       */}
       {/* <Hook /> */}
       {/* <Cards /> */}
-      <BGColor />
+      {/* <BGColor /> */}
+      <PassGen />
     </>
   )
 }
