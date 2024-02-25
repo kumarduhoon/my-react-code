@@ -3,7 +3,10 @@ import React from "react"
 // import Cards from "./components/Cards"
 // import BGColor from "./components/BGColor"
 // import PassGen from "./components/passgenrator/PassGen"
-import Main from "./components/currconvert/Main"
+// import Main from "./components/currconvert/Main"
+import Login from "./components/Login"
+import Profile from "./components/Profile"
+
 
 function App() {
   // const user = "this my code with beer"
@@ -17,7 +20,9 @@ function App() {
         {/* <Cards /> */}
         {/* <BGColor /> */}
         {/* <PassGen /> */}
-        <Main />
+        {/* <Main /> */}
+        <Login />
+        <Profile />
       </div>
     </>
   )
